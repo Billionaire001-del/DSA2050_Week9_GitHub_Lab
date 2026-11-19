@@ -29,7 +29,7 @@ The fictional Kenyan internet provider data are synthetically generated for teac
 2. Create/select a Python environment (Python 3.10–3.13 recommended).
 3. From the project root, install dependencies: `python -m pip install -r requirements.txt`.
 4. Open `notebooks/Week9_Model_Selection_Lab.ipynb` and select that environment as the kernel.
-5. Run cells in order. The notebook includes the completed rationale and saved outputs. Do not rerun the final evaluation or use its result to retune.
+5. Run the development-analysis and model-selection cells in order. Both members separately ran the frozen pipeline against the same final-test CSV; the stored metrics refer to that single 680-row holdout. Do not rerun the final-test cell or use its scores to retune.
 
 ## Prediction-time features and excluded fields
 
@@ -72,9 +72,9 @@ Established customers have markedly lower measured recall. This is an important 
 
 On a held-out slice of development data, the two largest mean F1 reductions after shuffling were `tenure_months` (0.079, SD 0.024) and `support_tickets_90d` (0.035, SD 0.016). This measures predictive reliance for this fitted model and validation sample, not causality: changing a feature is not shown to cause churn to change. Correlated predictors can divide or mask importance, and estimates from one slice and five shuffles are uncertain. Full values are in `reports/permutation_importance.csv`.
 
-## Final test (evaluated once after the frozen selection)
+## Final-test results after model freeze
 
-The untouched final test contains 680 rows. The selected pipeline was refit on all development rows and evaluated once:
+The final-test CSV contains 680 rows. After the model choice was frozen, each member separately ran the selected pipeline, refit on all development rows, against this same CSV. That means two executions on one holdout dataset, not two independent test estimates. The figures below are the recorded metric set; the project retains one `reports/final_metrics.json`, not a separate artifact for each member. The frozen-selection file preserves the original pre-test decision; this later repeated use is disclosed here.
 
 - **Accuracy:** 0.7000
 - **F1:** 0.4486
@@ -82,7 +82,7 @@ The untouched final test contains 680 rows. The selected pipeline was refit on a
 - **Recall:** 0.3640
 - **Confusion matrix** (actual rows `[stay, churn]`, predicted columns `[stay, churn]`): `[[393, 59], [145, 83]]`
 
-Final-test F1 is about 0.0215 below the development CV mean F1 of 0.4701; recall is also close to, but slightly below, the CV mean recall of 0.378. This modest difference does not indicate a dramatic collapse, but the single held-out test is only one estimate. It must not be reused for tuning or selecting a replacement model. Metrics are saved in `reports/final_metrics.json`.
+Final-test F1 is about 0.0215 below the development CV mean F1 of 0.4701; recall is also close to, but slightly below, the CV mean recall of 0.378. Both members used the same 680 rows, so their separate runs do not provide independent validation or increase the test sample size. The group review records that no one used the scores to revise the model. Do not use them for further tuning or model selection. Metrics are saved in `reports/final_metrics.json`.
 
 ## Limitations and ethics
 
@@ -95,7 +95,7 @@ The records are synthetic and may not capture real customer behaviour, measureme
 - [x] `reports/subgroup_metrics.csv`
 - [x] `reports/permutation_importance.csv`
 - [x] `reports/frozen_selection.json` created before the final test
-- [x] `reports/final_metrics.json` generated in the one ordered run
+- [x] `reports/final_metrics.json` records the frozen-model result; both members separately ran the same test CSV
 - [x] Two generated PNG charts
 - [x] Both contributors, student IDs, equal contribution, and accepted collaborator status are documented
 - [x] New repository URL recorded in this README
