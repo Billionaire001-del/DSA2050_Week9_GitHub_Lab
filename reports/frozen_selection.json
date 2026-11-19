@@ -1,0 +1,11 @@
+{
+  "selected_model": "Logistic regression",
+  "best_params": {
+    "model__C": 1
+  },
+  "primary_metric": "f1",
+  "cv_mean_f1": 0.47009865843703824,
+  "rationale": "I select logistic regression with C=1 using F1 as the pre-declared primary metric. In identical stratified five-fold development CV, it achieved mean F1 0.470 (SD 0.053), versus 0.398 (SD 0.049) for the best decision tree (depth 3); its mean precision/recall were 0.624/0.378. The 0.072 F1 gap is larger than the fold-to-fold variation, while the regularized linear model is relatively simple to explain and maintain. Out-of-fold predictions nevertheless show substantial missed churn: 566 false negatives, with only 0.378 overall churn recall. Performance is uneven: recall is 0.216 for established customers (n=2,268; 649 churners) and 0.782 for new customers (n=452; 261 churners), so a single aggregate score conceals a serious limitation. I accept the model only as the more defensible candidate for this synthetic exercise, not as deployment-ready. The final test will be used once, after this choice is frozen, and will not drive retuning.",
+  "random_seed": 42,
+  "scikit_learn_version": "1.9.1"
+}
