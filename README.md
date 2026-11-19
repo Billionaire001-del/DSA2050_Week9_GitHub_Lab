@@ -97,15 +97,15 @@ The records are synthetic and may not capture real customer behaviour, measureme
 - [x] `reports/frozen_selection.json` created before the final test
 - [x] `reports/final_metrics.json` generated in the one ordered run
 - [x] Two generated PNG charts
-- [ ] Complete member names, student IDs, contributions, and commit/co-authorship evidence
+- [x] Complete member names, student IDs, contributions, and commit/co-authorship evidence
 - [x] New repository URL recorded in this README
 
 ## Final group review
 
-- [ ] One group member verified a clean run from start to finish
-- [ ] Group discussed and approved the written model-selection rationale
-- [ ] No one used final-test scores to revise the model
-- [ ] One representative will submit the shared URL to the course LMS
+- [x] One group member verified a clean run from start to finish
+- [x] Group discussed and approved the written model-selection rationale
+- [x] No one used final-test scores to revise the model
+- [x] One representative will submit the shared URL to the course LMS
 
 ## GitHub repository URL
 
