@@ -1,6 +1,6 @@
 # DSA 2050A — Week 9: Model selection and defensible evaluation
 
-**Group name/number:** [Add your existing course group name/number]  
+**Group name/number:** Dancan Ratemo & Gregory Achochi  
 **Members and student IDs:** Dancan Ratemo (666172); Gregory Achochi (672745)  
 **Submission:** One shared GitHub repository link per group  
 **Course:** DSA 2050A Data Science Methodology  
