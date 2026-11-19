@@ -8,12 +8,12 @@
 
 ## Group responsibilities
 
-The two members contributed equally (50% each) across planning, data/model evaluation, interpretation, documentation, and review. Gregory Achochi (@4achochi) contributed equally. His invitation to the new repository is being sent by the repository owner. The group number and any course-required group label still need to be added.
+The two members contributed equally (50% each) across planning, data/model evaluation, interpretation, documentation, and review. Gregory Achochi (@4achochi) contributed equally. The repository owner sent him a write-access invitation to the new repository; it is pending acceptance. The group number and any course-required group label still need to be added.
 
 | Group member | Student ID | Work completed | GitHub username or commit reference |
 |---|---|---|---|
 | Dancan Ratemo | 666172 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | Billionaire001-del (repository owner) |
-| Gregory Achochi | 672745 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | @4achochi (new-repository invitation being sent) |
+| Gregory Achochi | 672745 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | @4achochi (write invitation sent; pending acceptance) |
 
 ## Study objective
 
