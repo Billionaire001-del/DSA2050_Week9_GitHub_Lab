@@ -1,19 +1,19 @@
 # DSA 2050A — Week 9: Model selection and defensible evaluation
 
-**Group members name:** Dancan Ratemo & Gregory Achochi  
-**Member's student IDs:** Dancan Ratemo (666172); Gregory Achochi (672745)  
+**Group name:** Dancan Ratemo & Gregory Achochi  
+**Members and student IDs:** Dancan Ratemo (666172); Gregory Achochi (672745)  
 **Submission:** One shared GitHub repository link per group  
 **Course:** DSA 2050A Data Science Methodology  
 **Week:** 9
 
 ## Group responsibilities
 
-Each member contributed equally (50% each) across planning, data/model evaluation, interpretation, documentation, and review.
+Each member contributed equally (50% each) across planning, data/model evaluation, interpretation, documentation, and review. Gregory’s GitHub account is @4achochi; the repository owner sent him a write-access invitation, which is pending acceptance.
 
 | Group member | Student ID | Work completed | GitHub username or commit reference |
 |---|---|---|---|
 | Dancan Ratemo | 666172 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | Billionaire001-del (repository owner) |
-| Gregory Achochi | 672745 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | @4achochi
+| Gregory Achochi | 672745 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | @4achochi (write invitation sent; pending acceptance)
 
 ## Study objective
 
@@ -97,7 +97,7 @@ The records are synthetic and may not capture real customer behaviour, measureme
 - [x] `reports/frozen_selection.json` created before the final test
 - [x] `reports/final_metrics.json` generated in the one ordered run
 - [x] Two generated PNG charts
-- [x] Complete member names, student IDs, contributions, and commit/co-authorship evidence
+- [x] Member names, student IDs, equal contribution statement, and collaborator invitation are documented
 - [x] New repository URL recorded in this README
 
 ## Final group review
