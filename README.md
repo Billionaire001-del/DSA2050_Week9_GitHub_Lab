@@ -6,14 +6,14 @@
 **Course:** DSA 2050A Data Science Methodology  
 **Week:** 9
 
-## Group responsibilities
+## Contributors
 
-Each member contributed equally (50% each) across planning, data/model evaluation, interpretation, documentation, and review. Gregory’s GitHub account is @4achochi; the repository owner sent him a write-access invitation, which is pending acceptance.
+Dancan Ratemo and Gregory Achochi contributed equally (50% each) across planning, data/model evaluation, interpretation, documentation, and review. GitHub confirms @4achochi is an accepted collaborator with write access, and both accounts appear in the repository contributors list.
 
-| Group member | Student ID | Work completed | GitHub username or commit reference |
+| Contributor | Student ID | Contribution | GitHub account and status |
 |---|---|---|---|
-| Dancan Ratemo | 666172 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | Billionaire001-del (repository owner) |
-| Gregory Achochi | 672745 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | @4achochi (write invitation sent; pending acceptance)
+| Dancan Ratemo | 666172 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | @Billionaire001-del (repository owner) |
+| Gregory Achochi | 672745 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | @4achochi (accepted collaborator; write access) |
 
 ## Study objective
 
@@ -97,7 +97,7 @@ The records are synthetic and may not capture real customer behaviour, measureme
 - [x] `reports/frozen_selection.json` created before the final test
 - [x] `reports/final_metrics.json` generated in the one ordered run
 - [x] Two generated PNG charts
-- [x] Member names, student IDs, equal contribution statement, and collaborator invitation are documented
+- [x] Both contributors, student IDs, equal contribution, and accepted collaborator status are documented
 - [x] New repository URL recorded in this README
 
 ## Final group review
