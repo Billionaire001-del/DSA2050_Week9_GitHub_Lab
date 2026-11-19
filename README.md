@@ -8,12 +8,12 @@
 
 ## Group responsibilities
 
-The two members contributed equally (50% each) across planning, data/model evaluation, interpretation, documentation, and review. Gregory Achochi was already invited to the GitHub repository as a collaborator, as confirmed by the repository owner. The group number and any course-required group label still need to be added.
+The two members contributed equally (50% each) across planning, data/model evaluation, interpretation, documentation, and review. Gregory Achochi (@4achochi) contributed equally. His invitation to the new repository is being sent by the repository owner. The group number and any course-required group label still need to be added.
 
 | Group member | Student ID | Work completed | GitHub username or commit reference |
 |---|---|---|---|
 | Dancan Ratemo | 666172 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | Billionaire001-del (repository owner) |
-| Gregory Achochi | 672745 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | Invited collaborator (per repository owner) |
+| Gregory Achochi | 672745 | Shared equally: planning, analysis, interpretation, documentation, and review (50%) | @4achochi (new-repository invitation being sent) |
 
 ## Study objective
 
@@ -98,7 +98,7 @@ The records are synthetic and may not capture real customer behaviour, measureme
 - [x] `reports/final_metrics.json` generated in the one ordered run
 - [x] Two generated PNG charts
 - [ ] Complete member names, student IDs, contributions, and commit/co-authorship evidence
-- [ ] Add final GitHub repository URL after publishing
+- [x] New repository URL recorded in this README
 
 ## Final group review
 
@@ -109,4 +109,4 @@ The records are synthetic and may not capture real customer behaviour, measureme
 
 ## GitHub repository URL
 
-https://github.com/Billionaire001-del/DSA2050_Week9_GitHub_Lab-
+https://github.com/Billionaire001-del/DSA2050_Week9_GitHub_Lab
